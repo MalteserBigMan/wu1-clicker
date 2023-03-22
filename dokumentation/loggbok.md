@@ -1,0 +1,1 @@
+Jag har börjat ändra på mycket av texten och värdena, behöver dock ändra värdet korrekt nästa lektion.
