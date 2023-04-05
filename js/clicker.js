@@ -170,7 +170,7 @@ upgrades = [
     {
         name: 'Pengaregn',
         cost: 50,
-        clicks: (moneyPerClick * 1.1),
+        clicks: (moneyPerClick * 2),
     },
     {
         name: 'Snatteri',
@@ -213,7 +213,7 @@ function createCard(upgrade) {
     } else {
         header.textContent = `${upgrade.name}, +${upgrade.clicks} per klick.`;
     }
-    cost.textContent = `Köp för ${upgrade.cost} benbitar.`;
+    cost.textContent = `Köp för ${upgrade.cost} Pengar.`;
 
     card.addEventListener('click', (e) => {
         if (money >= upgrade.cost) {
